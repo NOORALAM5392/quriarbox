@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quriar box</title>
+
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- font-awesome -->
+        <link rel="stylesheet" href="css/fontawesome.min.css">
+        <!-- mani style sheet -->
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <!-- navbar area start -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo.png" alt="logo.png">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Our services</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">What's new?</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <div class="search_btn">
+                        <!-- <input class="form-control me-2" type="search" placeholder="Search"> -->
+                        <button class="s_btn">
+                            <i class="fa-solid fa-magnifying-glass" onclick="openPopup()"></i>
+                            <div class="popup" id="popup">
+                                <input type="text" placeholder="Search Here">
+                                <a href="#">
+                                    <i class="fa-regular fa-circle-xmark" onclick="closePopup()"></i>
+                                </a>
+                            </div>
+                        </button>
+                        
+                    </div>
+                    <button class="btn oxanium" type="submit">Contact us</button>
+                </form>
+                </div>
+            </div>
+        </nav>
+        <!-- navbar area end -->
+
+        <!-- banner area start -->
+        <section id="banner_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <div class="banner_content">
+                            <h1>
+                                A trusted provider of <span> courier services. </span>
+                            </h1>
+                            <p>
+                                We deliver your products safely to your home in a reasonable time.
+                            </p>
+                            <a href="#" class="oxanium">
+                                Get started
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="banner_img">
+                            <img src="images/banner image.svg" alt="">
+                        </div>
+                    </div>       
+                </div>
+            </div>
+        </section>
+        <!-- banner area end -->
+        <!-- service area start -->
+        <section id="service_area">
+            <div class="container">
+                <div class="row">
+                    <div class="service_heading">
+                        <h4 class="oxanium">SERVICES</h4>
+                        <h3>Our services for you</h3>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card_img">
+                                <img src="images/Vector1.png" alt="Vector1.png">
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title">Business Services</h5>
+                              <div class="text_body">
+                                    <p class="card-text">
+                                        We give you complete reliable delivery for your company.  We will take full responsibility of the deliveries.
+                                    </p>
+                                    <div class="service_items">
+                                        <div class="item">
+                                            <i class="fa-solid fa-circle"></i>
+                                            <p>Corporate goods</p>
+                                        </div>
+                                        <div class="item">
+                                            <i class="fa-solid fa-circle"></i>
+                                            <p>Shipment</p>
+                                        </div>
+                                        <div class="item">
+                                            <i class="fa-solid fa-circle"></i>
+                                            <p>Accesories</p>
+                                        </div>
+                                    </div>
+                              </div>
+                              <div class="button">
+                                <a href="#" class="btn oxanium">Learn more</a>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card_img">
+                                <img src="images/Vector2.png" alt="Vector2.png">
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title">Business Services</h5>
+                              <div class="text_body">
+                                    <p class="card-text">
+                                        We give you complete reliable delivery for your company.  We will take full responsibility of the deliveries.
+                                    </p>
+                                    <div class="service_items">
+                                        <div class="item">
+                                            <i class="fa-solid fa-circle"></i>
+                                            <p>Corporate goods</p>
+                                        </div>
+                                        <div class="item">
+                                            <i class="fa-solid fa-circle"></i>
+                                            <p>Shipment</p>
+                                        </div>
+                                        <div class="item">
+                                            <i class="fa-solid fa-circle"></i>
+                                            <p>Accesories</p>
+                                        </div>
+                                    </div>
+                              </div>
+                              <div class="button">
+                                <a href="#" class="btn oxanium">Learn more</a>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="card_img last_img">
+                                <img src="images/Vector3.png" alt="Vector3.png">
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title">Business Services</h5>
+                              <div class="text_body">
+                                    <p class="card-text">
+                                        We give you complete reliable delivery for your company.  We will take full responsibility of the deliveries.
+                                    </p>
+                                    <div class="service_items">
+                                        <div class="item">
+                                            <i class="fa-solid fa-circle"></i>
+                                            <p>Corporate goods</p>
+                                        </div>
+                                        <div class="item">
+                                            <i class="fa-solid fa-circle"></i>
+                                            <p>Shipment</p>
+                                        </div>
+                                        <div class="item">
+                                            <i class="fa-solid fa-circle"></i>
+                                            <p>Accesories</p>
+                                        </div>
+                                    </div>
+                              </div>
+                              <div class="button">
+                                <a href="#" class="btn oxanium">Learn more</a>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- service area end -->
+        <!-- fact counter area -->
+        <section id="factCounterArea">
+            <div class="container">
+                <div class="counterPart">
+                    <div class="counterItems">
+                        <div class="image">
+                            <img src="images/LINE---COLOR(1).png" alt="">
+                        </div>
+                        <span>26+</span>
+                        <p>Awards  won</p>
+                    </div>
+                    <div class="counterItems">
+                        <div class="image">
+                            <img src="images/LINE---COLOR(2).png" alt="">
+                        </div>
+                        <span>65+</span>
+                        <p>States covered</p>
+                    </div>
+                    <div class="counterItems">
+                        <div class="image">
+                            <img src="images/LINE---COLOR(3).png" alt="">
+                        </div>
+                        <span>689K+</span>
+                        <p>Happy clients</p>
+                    </div>
+                    <div class="counterItems">
+                        <div class="image">
+                            <img src="images/LINE---COLOR(4).png" alt="">
+                        </div>
+                        <span>130M+</span>
+                        <p>Goods delivered</p>
+                    </div>
+                    <div class="counterItems">
+                        <div class="image">
+                            <img src="images/LINE---COLOR(5).png" alt="">
+                        </div>
+                        <span>130M+</span>
+                        <p>Business hours</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- fact counter end -->
+        <!-- video section start -->
+        <section id="video_area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="content">
+                            <div class="icon">
+                                <a href="#">
+                                    <i class="fa-solid fa-play"></i>
+                                </a>
+                            </div>
+                            <h6 class="oxanium">FASTEST DELIVERY</h6>
+                            <p>
+                                You can get your valuable item in the fastest period of
+                                time with safety. Because your emergency
+                                is our first priority.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- video section end -->
+        <!-- testimonial area start -->
+        <section id="testimonial">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="testimonial_content">
+                            <div class="testimonial_heading">
+                                <div class="heading">
+                                    <h4 class="oxanium">TESTIMONIAL</h4>
+                                    <h2>Our AwesomeClients</h2>
+                                    <img src="images/Quote icon.png" alt="">
+                                </div>
+                            </div>
+                            <div class="testimonial_text">
+                                <h6 class="oxanium">Fantastic service!</h6>
+                                <p class="one">
+                                    I purchased a phone from an e-commerce site, and this courier service provider assisted me in getting it delivered to my home. I received my phone within one day, and I was really satisfied with their service when I received it. They are really quick and dependable. They give me with the option of real-time delivery status, which allows me to track the progress of my goods delivery. I get a lot of questions from call center support and key account managers. They come highly recommended. Confidently say that they are really reliable.
+                                </p>
+                                <div class="testimonial_holder">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="testimonial_star">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="testimonial_profile">
+                                                <p>
+                                                    <span> Yves Tanguy </span> <br>
+                                                    Chief Executive, DLF
+                                                </p>
+                                                <img src="images/Avatar.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- testimonial area end -->
+        <!-- callback area start -->
+        <section id="callback">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="left">
+                                    <img src="images/Illustration.png" alt="">
+                                    
+                                    <h5 class="oxanium">REQUEST A CALLBACK</h5>
+                                    <h3>We will contact in the shortest time.</h3>
+                                    <p>
+                                        Monday to Friday, 9am-5pm.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="right form">
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+                                    </div>
+                                    <div class="mb-3">
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="Massage"></textarea>
+                                    </div>
+                                    <div class="button">
+                                        <a href="#" class="btn btn-primary" class="oxanium">
+                                            Send Massage
+                                            <i class="fa-solid fa-paper-plane"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- callback area end -->
+        <!-- find area start -->
+        <section id="findArea">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h6 class="oxanium">FIND US</h6>
+                        <h2>Access us easily</h2>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="findAreaLeft">
+                            <div class="google_map">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116869.45252691692!2d90.23838464335934!3d23.741302499999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b7a55cd36f%3A0xfcc5b021faff43ea!2sCreative%20IT%20Institute!5e0!3m2!1sen!2sbd!4v1689772643623!5m2!1sen!2sbd" height="430" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="findAreaRight">
+                            <div class="findAreaRightContent">
+                                <h6>Contact with us</h6>
+                                <div class="contact_item">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    <p>2277 Lorem Ave, San Diego, CA 22553</p>
+                                </div>
+                                <div class="contact_item">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p class="day">
+                                        Monday - Friday: 10 am - 10pm 
+                                        Sunday: 11 am - 9pm
+                                    </p>
+                                </div>
+                                <div class="contact_item">
+                                    <i class="fa-regular fa-envelope"></i>
+                                    <p>info@quriarbox.com</p>
+                                </div>
+                                <div class="icons">
+                                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <a href="#">
+                            <i class="fa-solid fa-phone"></i>
+                            Call us to delivery  123-456789
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- find area end -->
+        <!-- footer area star -->
+        <footer id="footerArea">
+            <div class="top_footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="topFooterLeft">
+                                <h4>Get an update every week</h4>
+                                <p>
+                                    We ensure that your product is delivered in the safest possible manner, at the correct location, at the right time.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="topFooterRight">
+                                <div class="subscribeArea">
+                                    <form class="row g-3">
+                                        <h5 class="oxanium">SUBSCRIBE TO NEWSLETTER</h5>
+                                        <div class="col-auto">
+                                          <input type="email" class="form-control" id="" placeholder="Enter your mail">
+                                        </div>
+                                        <div class="col-auto">
+                                          <a href="#" class="btn oxanium">Subscribe</a>
+                                        </div>
+                                      </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="middle_footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="middleFooterLeft">
+                                        <div class="middleFooterLeftContent">
+                                            <a href="#">
+                                                <img src="images/logo.png" alt="">
+                                            </a>
+                                            <p>
+                                                The most trusted Courier company in your area.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="middleFooterRight">
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <div class="footerLink">
+                                                    <h6 class="oxanium">Other links</h6>
+                                                    <ul class="navbar-nav">
+                                                        <li class="nav-item">
+                                                            <a href="#" class="nav-link">Blogs</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a href="#" class="nav-link">Movers website</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a href="#" class="nav-link">Traffic Update</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="footerLink">
+                                                    <h6 class="oxanium">Services</h6>
+                                                    <ul class="navbar-nav">
+                                                        <li class="nav-item">
+                                                            <a href="#" class="nav-link">Corporate goods</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a href="#" class="nav-link">Artworks</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a href="#" class="nav-link">Documents</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="footerLink">
+                                                    <h6 class="oxanium">Customer Care</h6>
+                                                    <ul class="navbar-nav">
+                                                        <li class="nav-item">
+                                                            <a href="#" class="nav-link">Documents</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a href="#" class="nav-link">About Us</a>
+                                                        </li>
+                                                        <li class="nav-item">
+                                                            <a href="#" class="nav-link">Contact US</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom_footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="copyRight">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <p class="left">
+                                            All rights Reserved © Your Company, 2021
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <p class="right">
+                                            Made with heart by <a href="#">ThemeWagon</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer area end -->
+       
+
+        <script src="js/code.jquery.com_jquery-1.12.4.min.js"></script>
+        <script src="js/script.js"></script>
+        <script>
+            let popup = document.getElementById("popup");
+
+            function openPopup() {
+                popup.classList.add("open-popup");
+            }
+
+            function closePopup() {
+                popup.classList.remove("open-popup");
+            }
+        </script>
+    </body>
+</html>
